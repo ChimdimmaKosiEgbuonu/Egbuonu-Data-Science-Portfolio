@@ -7,5 +7,5 @@ The main purpose of this repository's portfolio is to serve as a place to docume
 # Skills:
 * **Languages:** Python, SQL
 * **Technical Skills:** Data Analysis, Data Visualization
-* **Link to Main Portfolio Repository** https://github.com/ChimdimmaKosiEgbuonu/Egbuonu-Data-Science-Portfolio
+* **Link to Main Portfolio Repository:** https://github.com/ChimdimmaKosiEgbuonu/Egbuonu-Data-Science-Portfolio
 
