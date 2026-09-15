@@ -13,4 +13,9 @@ import pandas as pd
 
 st.subheader("Exploring Our Dataset")
 
-df = pd.read_csv("/Users/chimdimmaegbuonu/Documents/Egbuonu-Data-Science-Portfolio/week3/sample_data.csv")
+df = pd.read_csv("data/sample_data.csv")
+
+st.write("Here's our data")
+st.dataframe(df)
+
+
