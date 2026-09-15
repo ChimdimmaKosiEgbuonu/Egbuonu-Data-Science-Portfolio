@@ -19,5 +19,5 @@ st.write("Here's our data")
 st.dataframe(df)
 
 
-st.select("Select a City", df["City"].unique())
-#df[df["City"] == "New York"]
+city = st.selectbox("Select a City", df["City"].unique())
+st.dataframe(df[df["City"] == city])
