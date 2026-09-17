@@ -20,4 +20,7 @@ st.dataframe(df)
 
 
 city = st.selectbox("Select a City", df["City"].unique())
+st.write(f"people in {city}")
 st.dataframe(df[df["City"] == city])
+
+st.bar_chart(df["Salary"])
