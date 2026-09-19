@@ -5,3 +5,6 @@ This Streamlit app is a data analysis project on the very well-known "Palmer's P
 
 <img width="1600" height="1065" alt="image" src="https://github.com/user-attachments/assets/77e77e3f-ae17-4084-bdca-e73c1d80ac6f" />
 *All Credit and Rights Reserved to Oceanwide Expeditions for the image above
+
+## How to Run It
+Once you have installed Streamlit onto your terminal on your device, run the following command: streamlit run basic_streamlit_app/main.py
