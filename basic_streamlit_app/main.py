@@ -5,7 +5,7 @@ import streamlit as st
 
 
 st.title("Happy Data, Happy Feet: A Streamlit App on the Palmer's Penguins Dataset")
-st.write("This is my first Streamlit app. This app allows you to learn more about penguins through interactive features and engaging visualizations. Thank you for checking it out and have fun!")
+st.write("Description of App: This is my very first Streamlit app. This app allows you to learn more about penguins through interactive features and engaging visualizations. Thank you for checking it out and have fun!")
 
 
 df = pd.read_csv("basic_streamlit_app/data/penguins.csv")
