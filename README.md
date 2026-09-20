@@ -10,4 +10,4 @@ The main purpose of this repository's portfolio is to serve as a place to docume
 * **Link to Main Portfolio Repository:** https://github.com/ChimdimmaKosiEgbuonu/Egbuonu-Data-Science-Portfolio
 
 ## Description of Fall 2026 Portfolio:
-This semester, I will be working on a number of different projects, with the most current being a Streamlit app on the Palmer's Penguins dataset. I am looking forward to gaining skills in Streamlit and overall becoming more well-versed in the world of data science!
+This semester, I will be working on a number of different projects, with the most current being a Streamlit app on the Palmer's Penguins dataset. In this Streamlit app, I provide the dataset itself, the summary statistics of the data, and an interactive filtering tool for user interaction and engagement. I am looking forward to gaining skills in Streamlit and overall becoming more well-versed in the world of data science!
