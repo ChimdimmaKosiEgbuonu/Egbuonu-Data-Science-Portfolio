@@ -9,7 +9,7 @@ st.write("This is my first Streamlit app. This app allows you to learn more abou
 
 
 df = pd.read_csv("data/penguins.csv")
-st.write("This is the data that this app will be analyzing"
+st.write("This is the data that this app will be analyzing")
 st.dataframe(df)
 
 st.write("**Summary Statistics of the Dataset**")
