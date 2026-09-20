@@ -22,3 +22,13 @@ st.dataframe(df)
 st.write("**Summary Statistics of the Dataset:**")
 st.dataframe(df.describe())
 
+#interactive filtering for app
+choose_island = st.multiselect(
+  "Pick an Island!",
+  ["Biscoe", "Dream", "Torgersen"]
+  default = ["Biscoe"]
+
+#shows what the user picked
+st.write("You choose" + choose_island + "!")
+  
+  
