@@ -12,7 +12,7 @@ st.write("Description of App: This is my very first Streamlit app. This app allo
 
 
 #calls the .csv dataset file that will be used for the app
-df = pd.read_csv("basic_streamlit_app/data/penguins.csv")
+df = pd.read_csv("data/penguins.csv")
 st.write("This is the data that this app will be analyzing:")
 
 #sets dataframe for the app
@@ -25,10 +25,11 @@ st.dataframe(df.describe())
 #interactive filtering for app
 choose_island = st.multiselect(
   "Pick an Island!",
-  ["Biscoe", "Dream", "Torgersen"]
-  default = ["Biscoe"]
+  ["Biscoe", "Dream", "Torgersen"],
+  default = "Biscoe"
+)
 
 #shows what the user picked
-st.write("You choose" + choose_island + "!")
+st.write(f"You choose {choose_island}!")
   
   
