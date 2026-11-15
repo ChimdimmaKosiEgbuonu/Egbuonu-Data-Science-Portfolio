@@ -12,11 +12,11 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, confu
 
 # Lets the user use pre-loaded dataset or upload one of their choosing 
 st.sidebar.header("Choosing the Data")
-selection = st.sidebar.radio("Choose a data source:", ["Sample Dataset (Iris)", "Upload CSV"])
+selection = st.sidebar.radio("Choose a data source:", ["Sample Dataset (Penguins)", "Upload CSV"])
 
 # lets user use "tips" dataset or upload their own
-if selection == "Sample Dataset (Iris)":
-    tips= fetch_openml(data_id=61, as_frame=True, parser="auto")
+if selection == "Sample Dataset (Penguins)":
+    tips= fetch_openml(data_id=42585, as_frame=True, parser="auto")
     df = tips.frame
 else:
     uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
