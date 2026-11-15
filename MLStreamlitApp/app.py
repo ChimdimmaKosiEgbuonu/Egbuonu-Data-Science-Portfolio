@@ -16,7 +16,7 @@ selection = st.sidebar.radio("Choose a data source:", ["Sample Dataset (Tips)", 
 
 # lets user use "tips" dataset or upload their own
 if selection == "Sample Dataset (Tips)":
-    tips= fetch_openml(data_id=43695, as_frame=True, parser="auto")
+    tips= fetch_openml(data_id=61, as_frame=True, parser="auto")
     df = tips.frame
 else:
     uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
