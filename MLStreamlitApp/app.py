@@ -84,7 +84,9 @@ st.markdown(f"""
 **Description of Metrics:**
 
 **Accuracy:** The proportion of total predictions a model gets right out of all predictions
+
 **Precision:** A metric that measures the accuracy of positive predictions
+
 **Recall:** The rate in which a model is able to find the true positive cases within a dataset
 """)
 
