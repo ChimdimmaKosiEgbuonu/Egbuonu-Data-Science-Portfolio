@@ -3,7 +3,7 @@
 import pandas as pd           
 import seaborn as sns          
 import matplotlib.pyplot as plt  
-import streamlit as st 
+import streamlit as st
 from sklearn.datasets import fetch_openml
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, plot_tree
@@ -16,7 +16,7 @@ selection = st.sidebar.radio("Choose a data source:", ["Sample Dataset (Tips)", 
 
 # lets user use "tips" dataset or upload their own
 if selection == "Sample Dataset (Tips)":
-    tips= fetch_openml(data_id=42464, as_frame=True, parser="auto")
+    tips= fetch_openml(data_id=43695, as_frame=True, parser="auto")
     df = tips.frame
 else:
     uploaded_file = st.sidebar.file_uploader("Upload a CSV file", type=["csv"])
