@@ -1,3 +1,4 @@
+# I used Generative AI in assistance with the coding portion of the portfolio, but all written parts (such as the ReadMe) are my own work and did not use Generative AI.
 # imports all of the needed libraries for this portfolio update
 import pandas as pd           
 import seaborn as sns          
@@ -72,7 +73,7 @@ accuracy = accuracy_score(y_test, y_pred)
 precision = precision_score(y_test, y_pred, average="weighted", zero_division=0)
 recall = recall_score(y_test, y_pred, average="weighted", zero_division=0)
 
-st.subheader("Model Performance on Test Data")
+st.subheader("Performance on the Model of Test Data")
 col1, col2, col3 = st.columns(3)
 col1.metric("Accuracy", f"{accuracy:.2%}")
 col2.metric("Precision", f"{precision:.2%}")
@@ -80,10 +81,10 @@ col3.metric("Recall", f"{recall:.2%}")
 
 # explanations of the metrics
 st.markdown(f"""
-**What these metrics mean:**
-* **Accuracy: ** The proportion of total predictions a model gets right out of all predictions
-* **Precision: ** A metric that measures the accuracy of positive predictions
-* **Recall:** The rate in which a model is able to find the true positive cases within a dataset
+**Description of Metrics:**
+** Accuracy:** The proportion of total predictions a model gets right out of all predictions
+**Precision:** A metric that measures the accuracy of positive predictions
+**Recall:** The rate in which a model is able to find the true positive cases within a dataset
 """)
 
 # confusion Matrix and decision tree
