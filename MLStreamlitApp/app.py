@@ -73,7 +73,7 @@ accuracy = accuracy_score(y_test, y_pred)
 precision = precision_score(y_test, y_pred, average="weighted", zero_division=0)
 recall = recall_score(y_test, y_pred, average="weighted", zero_division=0)
 
-st.subheader("Performance on the Model of Test Data")
+st.subheader("Performance of the Model on Test Data")
 col1, col2, col3 = st.columns(3)
 col1.metric("Accuracy", f"{accuracy:.2%}")
 col2.metric("Precision", f"{precision:.2%}")
