@@ -75,9 +75,9 @@ recall = recall_score(y_test, y_pred, average="weighted", zero_division=0)
 
 st.subheader("Performance of the Model on Test Data")
 col1, col2, col3 = st.columns(3)
-col1.metric("Accuracy", f"{accuracy:.2%}")
-col2.metric("Precision", f"{precision:.2%}")
-col3.metric("Recall", f"{recall:.2%}")
+col1.metric("Accuracy", f"{accuracy:.2f}")
+col2.metric("Precision", f"{precision:.2f}")
+col3.metric("Recall", f"{recall:.2f}")
 
 # explanations of the metrics
 st.markdown(f"""
