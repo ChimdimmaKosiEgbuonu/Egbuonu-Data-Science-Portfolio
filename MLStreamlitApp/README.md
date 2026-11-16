@@ -4,7 +4,7 @@ This project is a machine learning (ML) Streamlit interactive app. On this appli
 
 **Link to Deployed App:**
 
-Put link here
+Here is a link to the deployed app itself: https://egbuonu-data-science-portfolio-flower.streamlit.app/
 
 **How to Run App Locally:**
 
