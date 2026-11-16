@@ -25,6 +25,9 @@ scikit-learn
 
 **Models Used and Hyperparameters Adjustment:**
 
+Models: Decision Tree
+Hyperparameters for Decision Tree: Max Depth, Min Samples Split, and Criterion
+Performance Metrics: Accuracy, Precision, Recall
 
 **References:**
 
@@ -39,5 +42,9 @@ https://archive.ics.uci.edu/dataset/53/iris
 
 Serrano, Chapter 7 (for defining the concepts of accuracy, precision, and recall)
 
-**Screenshot of App**
+**Screenshot of App:**
+
+Here is a screenshot of the app itself!
+<img width="1269" height="724" alt="Screenshot 2026-11-15 at 8 31 35 PM" src="https://github.com/user-attachments/assets/c5cb1abf-9dc3-4617-b7b4-43c741bc401f" />
+
 
