@@ -24,12 +24,10 @@ matplotlib
 scikit-learn
 
 **Models Used and Hyperparameters Adjustment:**
-#ask smiley about this one
+
 Models: Decision Tree
-Hyperparameters for Decision Tree: 
-Max Depth:
-Min Samples Split:
-Criterion:
+Hyperparameters for Decision Tree: Max Depth, Min Samples Split, and Criterion
+Performance Metrics: Accuracy, Precision, Recall
 
 **References:**
 
