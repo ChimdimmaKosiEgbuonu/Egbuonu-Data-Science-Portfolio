@@ -26,7 +26,9 @@ scikit-learn
 **Models Used and Hyperparameters Adjustment:**
 
 Models: Decision Tree
+
 Hyperparameters for Decision Tree: Max Depth, Min Samples Split, and Criterion
+
 Performance Metrics: Accuracy, Precision, Recall
 
 **References:**
