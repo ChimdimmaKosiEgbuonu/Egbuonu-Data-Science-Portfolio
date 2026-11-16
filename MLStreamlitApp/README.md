@@ -8,6 +8,11 @@ Here is a link to the deployed app itself: https://egbuonu-data-science-portfoli
 
 **How to Run App Locally:**
 
+Here are the instructions for how to run this app locally. Please ensure to follow it in these exact steps.
+
+1) cd MLStreamlitApp
+2) pip install -r requirements.txt
+3) streamlit run app.py
 
 **Libraries Needed:**
 
